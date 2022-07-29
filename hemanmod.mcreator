@@ -15,12 +15,21 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "power_sword"
+    },
+    {
+      "name": "HavokStaff",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "havok_staff"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.hemanmod.havok_staff": "Havok Staff",
       "item.hemanmod.cringer_spawn_egg": "Cringer Spawn Egg",
       "entity.hemanmod.cringer": "Cringer",
       "item.hemanmod.power_sword": "Power Sword"

@@ -7,6 +7,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cringer"
+    },
+    {
+      "name": "PowerSword",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_sword"
     }
   ],
   "variable_elements": [],
@@ -14,7 +22,8 @@
   "language_map": {
     "en_us": {
       "item.hemanmod.cringer_spawn_egg": "Cringer Spawn Egg",
-      "entity.hemanmod.cringer": "Cringer"
+      "entity.hemanmod.cringer": "Cringer",
+      "item.hemanmod.power_sword": "Power Sword"
     }
   },
   "foldersRoot": {

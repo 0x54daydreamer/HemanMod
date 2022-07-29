@@ -4,6 +4,7 @@
  */
 package xyz.torheit.hemanmod.init;
 
+import xyz.torheit.hemanmod.item.PowerSwordItem;
 import xyz.torheit.hemanmod.HemanmodMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -18,4 +19,5 @@ public class HemanmodModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, HemanmodMod.MODID);
 	public static final RegistryObject<Item> CRINGER = REGISTRY.register("cringer_spawn_egg",
 			() -> new ForgeSpawnEggItem(HemanmodModEntities.CRINGER, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> POWER_SWORD = REGISTRY.register("power_sword", () -> new PowerSwordItem());
 }
